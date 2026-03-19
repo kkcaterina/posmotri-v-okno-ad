@@ -187,6 +187,23 @@ ol {
   background-color: inherit;
 }
 
+.button:focus {
+  outline: none;
+}
+
+.button:focus-visible {
+  outline: 1px solid rgba(255, 255, 255, 1);
+  outline-offset: 1px; 
+}
+
+.button:hover {
+  text-decoration: underline;
+}
+
+.button:active {
+  background-color: rgba(84, 80, 80, 1);
+}
+
 .search-form__submit-button {
   width: 194px;
 }
